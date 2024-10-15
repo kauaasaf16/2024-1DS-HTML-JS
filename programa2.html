@@ -19,14 +19,17 @@
         pulaLinha()
     }
 
-    let pesoKaua = 70
-    let alturaKaua = 1.80      
+    function calcularIMC(peso, altura){
+        return imc = peso/ (altura*altura)
+    }    
+    
+    let imcKaua = calcularIMC(72, 1.71)
 
-    letimcKaua = pesoKaua/(alturaKaua*alturaKaua)
-
-    mostra(`O IMC de Kaua é ${imcKaua}`) //templete
+    mostra(" 0 IMC de Kaua é: " + imcKaua)
 
 
+
+    
 
  </script>
 
